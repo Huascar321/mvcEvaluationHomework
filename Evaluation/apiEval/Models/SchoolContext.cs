@@ -1,4 +1,4 @@
-﻿namespace webEval.Models
+﻿namespace apiEval.Models
 {
     using System.Data.Entity;
     public class SchoolContext : DbContext
@@ -8,6 +8,6 @@
 
         }
 
-        public System.Data.Entity.DbSet<webEval.Models.Student> Students { get; set; }
+        public System.Data.Entity.DbSet<apiEval.Models.Student> Students { get; set; }
     }
 }
